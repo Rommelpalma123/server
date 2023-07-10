@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const contactoSchema  = require('../models/contacto')
 
-router.post('/contactoversion2', function(req, res)
+router.post('/contactoversion', function(req, res)
 {
 
     const usuario = new contactoSchema(
